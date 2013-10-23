@@ -1493,15 +1493,15 @@ describe Capybara::Webkit::Driver do
     end
 
     it "ignores custom fonts" do
-      font_family.should eq "Arial"
+      font_family.should eq "ArialMT"
     end
 
     it "ignores custom fonts before an element" do
-      font_family.should eq "Arial"
+      font_family.should eq "ArialMT"
     end
 
     it "ignores custom fonts after an element" do
-      font_family.should eq "Arial"
+      font_family.should eq "ArialMT"
     end
   end
 
